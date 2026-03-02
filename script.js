@@ -1,29 +1,4 @@
-const services = [
-	{
-		name: 'YouTube',
-		description: 'Video hosting',
-		url: 'https://youtube.com',
-		tags: ['video_hosting', 'google']
-	},
-	{
-		name: 'Google',
-		description: 'Search engine',
-		url: 'https://google.com',
-		tags: ['search_engine', 'google']
-	},
-	{
-		name: 'GitHub',
-		description: 'Code hosting',
-		url: 'https://github.com',
-		tags: ['code_hosting']
-	},
-	{
-		name: 'Yandex',
-		description: 'Search engine',
-		url: 'https://yandex.com',
-		tags: ['search_engine']
-	}
-]
+let services = []
 
 const searchInput = document.getElementById('searchInput')
 const servicesContainer = document.getElementById('servicesContainer')
@@ -128,5 +103,16 @@ searchInput.addEventListener('input', () => {
 	filterServices()
 })
 
-renderTags()
-displayServices(services)
+async function loadSites() {
+	try {
+		const response = await fetch('sites.json')
+		services = await response.json()
+		renderTags()
+		displayServices(services)
+	} catch (error) {
+		console.error('Error loading sites:', error)
+		servicesContainer.innerHTML = '<p>Error loading sites</p>'
+	}
+}
+
+loadSites()

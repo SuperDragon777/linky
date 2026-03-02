@@ -1,0 +1,26 @@
+[
+	{
+		"name": "YouTube",
+		"description": "Video hosting",
+		"url": "https://youtube.com",
+		"tags": ["video_hosting", "google"]
+	},
+	{
+		"name": "Google",
+		"description": "Search engine",
+		"url": "https://google.com",
+		"tags": ["search_engine", "google"]
+	},
+	{
+		"name": "GitHub",
+		"description": "Code hosting",
+		"url": "https://github.com",
+		"tags": ["code_hosting"]
+	},
+	{
+		"name": "Yandex",
+		"description": "Search engine",
+		"url": "https://yandex.com",
+		"tags": ["search_engine"]
+	}
+]
