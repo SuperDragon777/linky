@@ -27,7 +27,7 @@ h1 {
 .search-container {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 #searchInput {
@@ -38,6 +38,31 @@ h1 {
 	border: none;
 	outline: none;
 	font-size: 16px;
+}
+
+.tags-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+	margin-bottom: 30px;
+}
+
+.tag {
+	background: #3a3a5f;
+	padding: 6px 14px;
+	border-radius: 20px;
+	font-size: 14px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.tag:hover {
+	background: #5c7cfa;
+}
+
+.tag.active {
+	background: #5c7cfa;
 }
 
 .services {
@@ -69,6 +94,26 @@ h1 {
 	font-size: 14px;
 	margin-bottom: 15px;
 	color: #ccc;
+}
+
+.card-tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-bottom: 15px;
+}
+
+.card-tag {
+	background: #3a3a5f;
+	padding: 4px 10px;
+	border-radius: 12px;
+	font-size: 12px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.card-tag:hover {
+	background: #5c7cfa;
 }
 
 .card a {
