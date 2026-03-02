@@ -1,9 +1,9 @@
 [
 	{
 		"name": "YouTube",
-		"description": "Video hosting",
+		"description": "Video hosting platform",
 		"url": "https://youtube.com",
-		"tags": ["video_hosting", "google"]
+		"tags": ["video_hosting", "google", "streaming"]
 	},
 	{
 		"name": "Google",
@@ -13,14 +13,62 @@
 	},
 	{
 		"name": "GitHub",
-		"description": "Code hosting",
+		"description": "Code hosting and version control",
 		"url": "https://github.com",
-		"tags": ["code_hosting"]
+		"tags": ["code_hosting", "development", "git"]
 	},
 	{
 		"name": "Yandex",
 		"description": "Search engine",
 		"url": "https://yandex.com",
-		"tags": ["search_engine"]
+		"tags": ["search_engine", "yandex"]
+	},
+	{
+		"name": "Discord",
+		"description": "Voice and text chat platform",
+		"url": "https://discord.com",
+		"tags": ["chat_platform", "communication", "gaming"]
+	},
+	{
+		"name": "Claude",
+		"description": "AI assistant",
+		"url": "https://claude.ai",
+		"tags": ["ai", "chatbot", "LLM"]
+	},
+	{
+		"name": "ChatGPT",
+		"description": "AI assistant",
+		"url": "https://chatgpt.com",
+		"tags": ["ai", "chatbot", "LLM"]
+	},
+	{
+		"name": "Google Translate",
+		"description": "Online translator",
+		"url": "https://translate.google.com",
+		"tags": ["translator", "google", "language"]
+	},
+	{
+		"name": "Yandex Translate",
+		"description": "Online translator",
+		"url": "https://translate.yandex.com",
+		"tags": ["translator", "yandex", "language"]
+	},
+	{
+		"name": "Reddit",
+		"description": "Social news aggregation and discussion",
+		"url": "https://reddit.com",
+		"tags": ["community", "discussion"]
+	},
+	{
+		"name": "Stack Overflow",
+		"description": "Q&A platform for programmers",
+		"url": "https://stackoverflow.com",
+		"tags": ["development", "code_help", "community"]
+	},
+	{
+		"name": "Wikipedia",
+		"description": "Free online encyclopedia",
+		"url": "https://wikipedia.org",
+		"tags": ["wiki"]
 	}
 ]
