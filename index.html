@@ -18,15 +18,42 @@
 		/>
 	</head>
 	<body>
+		<button
+			id="themeToggle"
+			class="theme-btn"
+			title="Toggle theme"
+		>
+			☀️
+		</button>
 		<main>
-			<img src="favicon.svg" alt="Linky logo" class="logo">
+			<img
+				src="favicon.svg"
+				alt="Linky logo"
+				class="logo"
+			/>
 			<h1>Linky</h1>
-			<div class="search-container">
-				<input
-					type="text"
-					id="searchInput"
-					placeholder="Search..."
-				/>
+			<div class="header-controls">
+				<div class="search-container">
+					<input
+						type="text"
+						id="searchInput"
+						placeholder="Search..."
+					/>
+				</div>
+			</div>
+			<div class="tabs">
+				<button
+					class="tab-btn active"
+					data-tab="all"
+				>
+					All Sites
+				</button>
+				<button
+					class="tab-btn"
+					data-tab="favorites"
+				>
+					Favorites
+				</button>
 			</div>
 			<div
 				class="tags-container"
@@ -37,6 +64,9 @@
 				id="servicesContainer"
 			></div>
 		</main>
+		<footer>
+			<p>&copy; 2026 Linky. All rights reserved.</p>
+		</footer>
 		<script src="script.js"></script>
 	</body>
 </html>
